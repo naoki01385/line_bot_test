@@ -30,4 +30,4 @@ jobs:
           #CHANNEL_ACCESS_TOKEN: "YOUR_CHANNEL_ACCESS_TOKEN"
           #USER_ID: "YOUR_USER_ID"
         run: |
-           /Users/naoki/Jupyter/line_bot/main.py
+           python line_bot_test/Jupyter/line_bot/main.py 
