@@ -30,5 +30,4 @@ jobs:
           #CHANNEL_ACCESS_TOKEN: "YOUR_CHANNEL_ACCESS_TOKEN"
           #USER_ID: "YOUR_USER_ID"
         run: |
-          
-          python3 main.py
+          python main.py
