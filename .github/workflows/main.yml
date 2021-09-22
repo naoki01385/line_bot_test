@@ -30,4 +30,4 @@ jobs:
        # env:
          # CHANNEL_ACCESS_TOKEN: ""
         run: |
-           python /Users/naoki/Jupyter/line_bot/main.py
+           python main.py
