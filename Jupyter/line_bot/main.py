@@ -3,7 +3,7 @@ import json
 from linebot import LineBotApi
 from linebot.models import TextSendMessage
 
-file=open('info.json','r')
+file=open('Jupyter/line_bot/info.json/info.json','r')
 info=json.load(file)
 
 CHANNEL_ACCESS_TOKEN=info['CHANNEL_ACCESS_TOKEN']
