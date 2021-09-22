@@ -26,8 +26,8 @@ jobs:
           python -m pip install --upgrade pip
           
           pip install line-bot-sdk
-      - name: Run script
+      - name: Run python
        # env:
          # CHANNEL_ACCESS_TOKEN: ""
         run: |
-           python3 /Users/naoki/Jupyter/line_bot/main.py
+           python /Users/naoki/Jupyter/line_bot/main.py
