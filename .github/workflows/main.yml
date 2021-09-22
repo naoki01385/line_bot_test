@@ -11,7 +11,7 @@ on:
 jobs:
   build:
     # Ubuntuの最新版環境内で処理
-    runs-on: mac_latest
+    runs-on: macos-11
 
     # 実行する処理＆コマンド指定
     steps:
