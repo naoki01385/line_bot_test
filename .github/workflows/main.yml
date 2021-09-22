@@ -1,17 +1,17 @@
 # ワークフロー名
 
-name: test_chatbot
+name: line_bot 
 
 # 発火タイミング
 on:
-  push:
+ push:
   #schedule:
     #- cron: '0 22 * * *'
 
 jobs:
   build:
     # Ubuntuの最新版環境内で処理
-    runs-on: ubuntu-latest
+    runs-on: mac_latest
 
     # 実行する処理＆コマンド指定
     steps:
