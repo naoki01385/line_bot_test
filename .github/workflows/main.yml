@@ -27,8 +27,8 @@ jobs:
           
           pip install line-bot-sdk
       - name: Run script
-        #env:
-          #CHANNEL_ACCESS_TOKEN: "YOUR_CHANNEL_ACCESS_TOKEN"
-          #USER_ID: "YOUR_USER_ID"
+        env:
+          CHANNEL_ACCESS_TOKEN: "XXcFebQQMtzVY7VNsI5omhhmZ6RecRHT94ZHHm3+Q6nlo0/sUceNBqgz3RLgAwXa3HH9mr7j+Tu+xH5HU8BT3kNdXGvHTSmKQqhJrvbKeaDR6zOx0cJjdl15EFsF691QaC8oOQzHZOR0O3LHniVM2AdB04t89/1O/w1cDnyilFU="
+          USER_ID: "Uaf2d5dbbe1f2d178a134ff8d6d354878"
         run: |
-           python  main.py
+           python main.py
