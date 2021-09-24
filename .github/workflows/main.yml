@@ -4,7 +4,7 @@ name: line_bot
 
 # 発火タイミング
 on:
- push:
+  push:
   #schedule:
     #- cron: '0 22 * * *'
 
